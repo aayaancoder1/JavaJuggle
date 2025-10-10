@@ -1,3 +1,4 @@
+// (a)
 //Declare a class called Employee having employee-id and employee-name as members.
 //Extend class Employee to have a sub class called Salary having designation and monthly salary as members.
 

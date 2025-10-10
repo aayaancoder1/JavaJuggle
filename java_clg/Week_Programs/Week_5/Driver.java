@@ -1,3 +1,11 @@
+// (b)
+// Write a Java program that create an abstract base class Shape with two members base and height,
+// a member function for initialization and a function to compute shapeArea().
+// Derive two specific classes Triangle and Rectangle which override the function
+// shapeArea().
+// Write a driver classes (main) to display the area of the triangle and rectangle.
+// (Use super keyword).
+
 abstract class Shape
 {
 	int base;

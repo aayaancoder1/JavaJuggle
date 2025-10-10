@@ -1,3 +1,4 @@
+// (a)
 // Define a class Rectangle with data member’s length and width. Write methods to find
 // perimeter and area of a rectangle.(class and object).
 
