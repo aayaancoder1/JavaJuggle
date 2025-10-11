@@ -10,9 +10,7 @@ public class KeyEventListenerDemo extends Frame implements KeyListener, WindowLi
         addWindowListener(this);
     }
     public void keyPressed(KeyEvent e){
-        // char a = e.getKeyChar();
-        // if(a == '@'){
-        //     new MouseEventDemo();
+        new MouseEventDemo();
     }
     public void keyReleased(KeyEvent e){}
     public void keyTyped(KeyEvent e){
