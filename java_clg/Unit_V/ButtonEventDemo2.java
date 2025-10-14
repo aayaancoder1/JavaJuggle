@@ -10,7 +10,7 @@ public class ButtonEventDemo2 extends Frame implements ActionListener
         b2 = new Button("OS");
         b3 = new Button("ADS");
         b4 = new Button("Close");
-        b1.setBounds(10, 70, 90);
+        b1.setBounds(10, 10, 70, 90);   //(x, y, width, height)
         b2.setBounds(50, 50, 100, 100);
         b3.setBounds(100, 100, 150, 150);
         b4.setBounds(150, 150, 250, 250);
