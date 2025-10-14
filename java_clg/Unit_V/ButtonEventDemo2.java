@@ -5,11 +5,15 @@ public class ButtonEventDemo2 extends Frame implements ActionListener
 {
     Button b1, b2, b3, b4;
     public ButtonEventDemo2(){
-        setLayout(new FlowLayout());
+        setLayout(null);
         b1 = new Button("Java");    //label of button
         b2 = new Button("OS");
         b3 = new Button("ADS");
         b4 = new Button("Close");
+        b1.setBounds(10, 70, 90);
+        b2.setBounds(50, 50, 100, 100);
+        b3.setBounds(100, 100, 150, 150);
+        b4.setBounds(150, 150, 250, 250);
         add(b1);
         add(b2);
         add(b3);
