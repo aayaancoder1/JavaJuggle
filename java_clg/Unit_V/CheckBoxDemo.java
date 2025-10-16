@@ -16,8 +16,9 @@ public class CheckBoxDemo extends Frame implements ItemListener
         c3 = new Checkbox("Python");
         CheckboxGroup g1 = new CheckboxGroup();
         CheckboxGroup g2 = new CheckboxGroup();
+        CheckboxGroup g3 = new CheckboxGroup();
         r1 = new Checkbox("Beginner", g1, false);
-        r2 = new Checkbox("Intermediate", g2, false);
+        r2 = new Checkbox("Intermediate", g1, false);
         r3 = new Checkbox("Expert", g1, false);
         add(l1);
         add(c1);
@@ -41,11 +42,11 @@ public class CheckBoxDemo extends Frame implements ItemListener
     public void itemStateChanged(ItemEvent e) {
         StringBuffer sb = new StringBuffer("languages known:");
         String s = "Expertiese";
-        if(c1.getState() == true)
+        if(c1.getState())
             sb.append("C#");
-        if(c2.getState() == true)
+        if(c2.getState())
             sb.append("Java");
-        if(c3.getState() == true)
+        if(c3.getState())
             sb.append("Python");
         if(r1.getState())
             s += "Beginner";
