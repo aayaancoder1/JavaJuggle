@@ -11,7 +11,7 @@ public class ButtonEventDemo2 extends Frame implements ActionListener
         b3 = new Button("ADS");
         b4 = new Button("Close");
         b1.setBounds(10, 10, 70, 90);   //(x, y, width, height)
-        b2.setBounds(50, 50, 100, 100);
+        b2.setBounds(50, 50, 100, 100); // components lose their original size when window is resized
         b3.setBounds(100, 100, 150, 150);
         b4.setBounds(150, 150, 250, 250);
         add(b1);
