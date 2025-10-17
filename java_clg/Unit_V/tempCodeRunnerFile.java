@@ -10,8 +10,6 @@ public class DropdownDemo extends Frame implements ItemListener{
         setLayout(new FlowLayout());
         l1 = new Label("Enter your choice");
         ch = new Choice();
-        add(l1);
-        add(ch);
         ch.addItem("Idli");
         ch.addItem("Dosa");
         ch.addItem("Wada");
@@ -22,13 +20,13 @@ public class DropdownDemo extends Frame implements ItemListener{
         setTitle("Dropdown Demo");
         setSize(400,400);
         setVisible(true);
-        addWindowListener(new WindowAdapter(){
+        add windowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent we){
                 System.exit(0);
             }
         });
     }
-    public void itemStateChanged(ItemEvent e){
+    public void itemValueChanged(ItemEvent e){
         String s = ch.getSelectedItem();
         int x = ch.getSelectedIndex();
         l1.setText("You selected " + (x + 1) + "." + s);
