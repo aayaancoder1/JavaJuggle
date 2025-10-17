@@ -1,5 +1,5 @@
 // Dropdown Demo
-// 16/10 (4)
+// 17/10 (1)
 import java.awt.*;
 import java.awt.event.*;
 
@@ -27,6 +27,9 @@ public class DropdownDemo extends Frame implements ItemListener{
                 System.exit(0);
             }
         });
+        // inside the blue (), we are creating an object of WindowAdapter class
+        // its an anonymous class
+        // its lets us override only the methods we want and not all methods of WindowListener interface
     }
     public void itemStateChanged(ItemEvent e){
         String s = ch.getSelectedItem();
