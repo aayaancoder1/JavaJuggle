@@ -16,18 +16,22 @@ public class JPanelDemo extends JFrame implements ItemListener
     public JPanelDemo(){
         c = getContentPane();
         c.setLayout(new BorderLayout());
+
         p1 = new JPanel();
         p1.setBackground(Color.pink);
         p2 = new JPanel();
         p2.setBackground(Color.blue);
+
         c1 = new JCheckBox("Pastry");
         c2 = new JCheckBox("Burger");
         c3 = new JCheckBox("Pizza");
         r1 = new JRadioButton("Veg");
         r2 = new JRadioButton("No Non-Veg");
+
         ButtonGroup bg = new ButtonGroup();
         bg.add(r1);
         bg.add(r2);
+		
         p1.add(c1);
         p1.add(c2);
         p1.add(c3);
