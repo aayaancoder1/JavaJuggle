@@ -31,7 +31,7 @@ class Second extends Thread
 
 public class MultiThreadingDemo
 {
-	public stativ void main (String arg[]){
+	public static void main (String arg[]){
 		First f = new First();
 		Second s = new Second();
 		f.start();
