@@ -12,6 +12,8 @@ public class FileClassMethodsDemo
 		System.out.println("Directory: " +f.isDirectory());
 		System.out.println("Name: " +f.getName());
 		System.out.println("Path: " +f.getPath());
+		System.out.println("Absolute Path: " +f.getAbsolutePath());
 		System.out.println("Last Modified: " +f.lastModified());
+		System.out.println("Parent: " +f.getParent());
 	}
 }
