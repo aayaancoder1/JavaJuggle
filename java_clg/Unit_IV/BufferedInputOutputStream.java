@@ -17,5 +17,7 @@ public class BufferedInputOutputStream
 			}
 			bos.close();
 			bis.close();
+			fis.close();
+			fos.close();
 	}
 }
