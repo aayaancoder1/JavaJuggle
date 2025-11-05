@@ -20,3 +20,9 @@ public class SequenceInputStreamDemo
 		fis2.close();
 	}
 }
+
+
+a & bis[
+
+	if (a+b )
+]
