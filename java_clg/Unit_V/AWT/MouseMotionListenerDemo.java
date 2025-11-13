@@ -23,5 +23,4 @@ public class MouseMotionListenerDemo extends Frame implements MouseMotionListene
 		new MouseMotionListenerDemo();
         // or MouseMotionListenerDemo m = new MouseMotionListenerDemo();
 	}
-    public static void main(String args[]) 
 }
