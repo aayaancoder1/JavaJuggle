@@ -3,7 +3,7 @@ class First extends Thread
 	public void run(){
 		int i;
 		for (i = 0; i < 10; i++){
-			System.out.println("Value of i" +i);
+			System.out.println("Value of i: " +i);
 			try{
 				Thread.sleep(500);
 			}
